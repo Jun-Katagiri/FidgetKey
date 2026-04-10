@@ -1,10 +1,3 @@
-//
-//  FidgetKeyApp.swift
-//  FidgetKey
-//
-//  Created by Jun Katagiri on 2026/04/10.
-//
-
 import SwiftUI
 
 @main
@@ -13,5 +6,6 @@ struct FidgetKeyApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowResizability(.contentSize)
     }
 }
